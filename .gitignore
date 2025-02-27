@@ -7,6 +7,14 @@ __pycache__/
 node_modules/
 .github/
 cloudinary_python.txt
-kaggle.json
+kaggle.
+cherry-leaves/train/
+cherry-leaves/test/
+cherry-leaves/validation/
+outputs/v1/
+outputs/v2/
+outputs/v1/mildew_detection_model.h5
+outputs/v2/best_model.keras
 *.keras
 *.pkl
+
