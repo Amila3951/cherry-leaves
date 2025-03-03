@@ -1,6 +1,6 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-<<<<<<< HEAD
+
 import pandas as pd
 from src.machine_learning.evaluate_clf import load_test_evaluation
 
@@ -65,7 +65,7 @@ def run():
     else:
         st.dataframe(pd.DataFrame(evaluation, index=['Loss', 'Accuracy']))
         st.write(f"> **The accuracy of the ML model is {evaluation['test_accuracy']*100:.0f}%**")
-=======
+
 from src.machine_learning.evaluate_clf import load_test_evaluation 
 
 def run():
@@ -109,4 +109,4 @@ def run():
         # Display classification report
         st.write("### 📝 Classification Report")
         st.text(evaluation['classification_report'])
->>>>>>> 677e0a13154007f722449a0e0a1e43eb067945f9
+
